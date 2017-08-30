@@ -1,0 +1,116 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+My Colors
+96108B  النهدي
+B000B0  النهدي الفاتح
+697882  رمادي الخظوظ الغامقه
+f1f1f1   رمادي الخطوط الفاتحة
+
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+.page-header .page-header-menu .search-form .input-group .form-control {
+  color: #f1f1f1;
+}
+ 
+ .page-prefooter .subscribe-form .btn:hover, .page-prefooter .subscribe-form .btn:focus, .page-prefooter .subscribe-form .btn:active, .page-prefooter .subscribe-form .btn.active {
+  color: #fff;
+  background-color: #B000B0;
+}
+.page-prefooter .subscribe-form .btn {
+  color: #fff;
+  background-color: #96108B;
+  border-color: "";
+}
+.page-header .page-header-menu .search-form .input-group .form-control::-moz-placeholder {
+  color: #f1f1f1; 
+}
+.theme-font {
+  color: #96108B !important;
+}
+ 
+.page-prefooter {
+  background: #FFFFFF;
+  color: #697882;
+}
+
+.page-prefooter h2 {
+  color: #96108B;
+}
+
+/*--------------------START STYLE for Qustions list ------------------------*/
+.ulx {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #FFF;
+}
+.lix {
+     float: left;    
+}
+.lixA {
+     float: left;  
+    
+}
+.lix a { 
+    color: #000;
+    background-color: #FFF;
+    border-color: #CCC;
+    display: block;
+    text-align: center; 
+    text-decoration: none; 
+    border-style: solid;
+    border-width: 1px; 
+    padding-top: 10px;
+    font-family:Verdana;  
+    width: 40px;
+    height: 40px;
+    float: left; 
+}
+.lixA a{
+    color: #000;
+    background-color: #DDD; 
+    border-color: #CCC;
+    display: block;
+    text-align: center; 
+    text-decoration: none; 
+    border-style: solid;
+    border-width: 1px; 
+    padding-top: 10px;
+    font-family:Verdana;  
+    width: 40px;
+    height: 40px;
+    float: left; 
+}
+/* Change the link color to #111 (black) on hover */
+.lix a:hover { 
+  color: #FFF;
+    background-color: #AAA;
+         border-color: #888;
+     border-style: solid;
+     border-width: 1px;
+}
+.lixA a:hover { 
+  color: #FFF;
+    background-color: #AAA;
+         border-color: #888;
+     border-style: solid;
+     border-width: 1px;
+}
+/*--------------------END STYLE for Qustions list ------------------------*/
